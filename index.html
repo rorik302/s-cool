@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <title>S-Cool</title>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <nav class="topbar">
+                <div class="topbar__brand">
+                    <img src="img/S-Cool.svg" alt="Brand"/>
+                    <p class="topbar__brand-desc">
+                        Реальные отзывы<br/>о школах и детских садах
+                    </p>
+                </div>
+                <div class="topbar__location">
+                    <img src="img/location.svg" alt="Location"/>
+                    <span class="topbar__city">Москва</span>
+                </div>
+                <ul class="topbar__menu">
+                    <li class="topbar__menu-item">
+                        <a href="#" class="topbar__menu-link">Школы</a>
+                    </li>
+                    <li class="topbar__menu-item">
+                        <a href="#" class="topbar__menu-link">Сады</a>
+                    </li>
+                    <li class="topbar__menu-item">
+                        <a href="#" class="topbar__menu-link"
+                        >На карте</a
+                        >
+                    </li>
+                </ul>
+                <div class="topbar__search">
+                    <img src="img/search.svg" alt="Search"/>
+                </div>
+                <div class="topbar__auth">
+                    <img src="img/account.svg" alt="Account"/>
+                    <a href="#" class="topbar__auth-link"
+                    >Вход / Регистрация</a
+                    >
+                </div>
+                <button class="topbar__btn btn">Оставить отзыв</button>
+            </nav>
+        </div>
+    </div>
+    <div class="hero__wrapper">
+        <div class="hero__container">
+            <div class="container">
+                <div class="row">
+                    <h1 class="hero__title">Школы и детские сады</h1>
+                </div>
+                <div class="row">
+                    <form action="" class="hero__form">
+                        <div class="form-select">
+                            <img
+                                    src="img/location.svg"
+                                    class="form-img"
+                                    alt="Location"
+                            />
+                            <span class="select-input">Москва</span>
+                            <img
+                                    src="img/dropdown.svg"
+                                    alt="Dropdown"
+                                    class="dropdown-img"
+                            />
+                        </div>
+
+                        <div class="form-input">
+                            <img
+                                    src="img/search.svg"
+                                    class="form-img"
+                                    alt="Search"
+                            />
+                            <span class="input"
+                            >Поиск</span
+                            >
+                        </div>
+                        <button class="hero__btn btn">Найти</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about__image col-md-6">
+                    <img src="img/about.png" alt="About"/>
+                </div>
+                <div class="offset-md-1 col-md-5">
+                    <h2 class="about__title">О проекте</h2>
+                    <p class="about__text">
+                        S-COOL.RU - это интернет-проект в сфере среднего
+                        образования.
+                    </p>
+                    <p class="about__text">
+                        S-COOL.RU - тематический сайт, поэтому для нас
+                        не существует никаких ограничений, кроме рамок
+                        нашей тематики.
+                    </p>
+                    <p class="about__text">
+                        Любой творческий человек, взрослый или ребенок,
+                        может принять участие в этом проекте
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="schools">
+        <div class="container">
+            <div class="row">
+                <h2 class="schools__title col-md-6">
+                    Найдите вашу школу
+                </h2>
+            </div>
+
+            <div class="row">
+                <p class="schools__text col-md-6">
+                    Ищите школу? Мы поможем вам! Нажмите на ссылку ниже,
+                    чтобы найти школы с самым высоким рейтингом, найти
+                    информацию о школе, найти отзывы родителей, и многое
+                    другое.
+                </p>
+            </div>
+
+            <div class="schools__cards">
+                <div class="school-card">
+                    <div class="school-card__body">
+                        <img
+                                src="img/moscow school.png"
+                                alt="Moscow"
+                                class="school-card__image"
+                        />
+                    </div>
+                    <div class="school-card__footer">
+                                <span class="school-card__footer-text"
+                                >Москва</span
+                                >
+                        <button class="school-card__btn btn">
+                            <img src="img/arrow.svg" alt="Arrow"/>
+                        </button>
+                    </div>
+                </div>
+                <div class="school-card">
+                    <div class="school-card__body">
+                        <img
+                                src="img/spb school.png"
+                                alt="Spb"
+                                class="school-card__image"
+                        />
+                    </div>
+                    <div class="school-card__footer">
+                                <span class="school-card__footer-text"
+                                >Санкт-Петербург</span
+                                >
+                        <button class="school-card__btn btn">
+                            <img src="img/arrow.svg" alt="Arrow"/>
+                        </button>
+                    </div>
+                </div>
+                <div class="school-card">
+                    <div class="school-card__body">
+                        <img
+                                src="img/novosib.png"
+                                alt="Novosibirsk"
+                                class="school-card__image"
+                        />
+                    </div>
+                    <div class="school-card__footer">
+                                <span class="school-card__footer-text"
+                                >Новосибирск</span
+                                >
+                        <button class="school-card__btn btn">
+                            <img src="img/arrow.svg" alt="Arrow"/>
+                        </button>
+                    </div>
+                </div>
+                <div class="school-card">
+                    <div class="school-card__body">
+                        <img
+                                src="img/ekb.png"
+                                alt="Ekaterinburg"
+                                class="school-card__image"
+                        />
+                    </div>
+                    <div class="school-card__footer">
+                                <span class="school-card__footer-text"
+                                >Екатеринбург</span
+                                >
+                        <button class="school-card__btn btn">
+                            <img src="img/arrow.svg" alt="Arrow"/>
+                        </button>
+                    </div>
+                </div>
+                <div class="school-card">
+                    <div class="school-card__body">
+                        <img
+                                src="img/nn.png"
+                                alt="NN"
+                                class="school-card__image"
+                        />
+                    </div>
+                    <div class="school-card__footer">
+                                <span class="school-card__footer-text"
+                                >Нижний Новгород</span
+                                >
+                        <button class="school-card__btn btn">
+                            <img src="img/arrow.svg" alt="Arrow"/>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog">
+        <h2 class="blog__title">Блог</h2>
+        <div class="blog__articles">
+            <div class="col-md-6">
+                <div class="article article__big"></div>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>

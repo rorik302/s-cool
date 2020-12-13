@@ -1,0 +1,291 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #4f4f4f;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+p {
+  margin: 0;
+}
+
+a,
+a:hover {
+  color: #4f4f4f;
+  text-decoration: none;
+}
+
+.row {
+  padding: 0 15px;
+}
+
+.btn {
+  background-color: #27ae60;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 3px;
+  border: transparent;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background-color: #25a35a;
+}
+
+.topbar {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.topbar .topbar__brand-desc {
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.topbar .topbar__location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 65px;
+}
+
+.topbar .topbar__location .topbar__city {
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.topbar .topbar__menu .topbar__menu-item {
+  padding: 0 24px;
+}
+
+.topbar .topbar__menu .topbar__menu-item:first-child {
+  padding-left: 0;
+}
+
+.topbar .topbar__menu .topbar__menu-item:last-child {
+  padding-right: 0;
+}
+
+.topbar .topbar__menu .topbar__menu-item .topbar__menu-link {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.topbar .topbar__search {
+  margin: 0 50px;
+}
+
+.topbar .topbar__auth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.topbar .topbar__auth .topbar__auth-link {
+  margin-left: 8px;
+  color: #828282;
+  font-size: 12px;
+}
+
+.topbar .topbar__btn {
+  margin-left: 30px;
+  font-size: 13px;
+  padding: 10px 24px;
+}
+
+.hero__wrapper {
+  background: url("../img/main.png") no-repeat center bottom -70px;
+  background-size: cover;
+  height: 562px;
+}
+
+.hero__wrapper .hero__container {
+  background-color: rgba(45, 49, 66, 0.4);
+  height: 100%;
+}
+
+.hero__wrapper .hero__container .hero__title {
+  margin: 0 auto;
+  padding-top: 162px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+
+.hero__wrapper .hero__container .hero__form {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero__wrapper .hero__container .hero__btn {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.form-select,
+.form-input {
+  height: 38px;
+  background-color: #ffffff;
+  margin-right: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 4px;
+}
+
+.form-select .form-img,
+.form-input .form-img {
+  margin-left: 25px;
+  margin-right: 10px;
+}
+
+.form-select .select-input,
+.form-input .select-input {
+  width: 110px;
+  font-size: 13px;
+}
+
+.form-select .input,
+.form-input .input {
+  width: 293px;
+  font-size: 13px;
+  color: #bdbdbd;
+}
+
+.form-select .dropdown-img,
+.form-input .dropdown-img {
+  margin-right: 20px;
+}
+
+.about {
+  padding-top: 96px;
+}
+
+.about .about__image img {
+  width: 100%;
+  height: 302px;
+  border-radius: 8px;
+}
+
+.about .about__title {
+  padding-top: 22px;
+  padding-bottom: 16px;
+  font-size: 44px;
+  color: #333333;
+  font-weight: 700;
+}
+
+.about .about__text {
+  font-size: 12px;
+  padding-bottom: 18px;
+}
+
+.schools {
+  padding-top: 160px;
+}
+
+.schools .schools__title {
+  font-size: 44px;
+  font-weight: 700;
+  color: #333333;
+  padding-bottom: 16px;
+}
+
+.schools .schools__text {
+  font-size: 13px;
+  padding-bottom: 24px;
+}
+
+.schools .schools__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.school-card {
+  height: 276px;
+  width: 203px;
+  position: relative;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 15px 20px rgba(126, 126, 126, 0.1);
+          box-shadow: 0 15px 20px rgba(126, 126, 126, 0.1);
+  overflow: hidden;
+  margin-right: 24px;
+}
+
+.school-card:last-child {
+  margin-right: 0;
+}
+
+.school-card .school-card__body {
+  width: 100%;
+  height: 212px;
+}
+
+.school-card .school-card__body .school-card__image {
+  height: inherit;
+  width: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.school-card .school-card__footer {
+  padding: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.school-card .school-card__footer .school-card__footer-text {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.school-card .school-card__footer .school-card__btn {
+  background-color: #f2f2f2;
+}
